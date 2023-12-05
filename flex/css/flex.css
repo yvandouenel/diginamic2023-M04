@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  height: 800px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+}
+.container > div {
+  border: 1px solid black;
+  /* width: 100%; */
+  flex-basis: 32%;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=flex.css.map */

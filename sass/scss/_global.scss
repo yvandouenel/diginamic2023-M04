@@ -1,0 +1,18 @@
+body {
+  background-color: $light;
+}
+
+header {
+  border: 1px solid black;
+  nav ul {
+  list-style: none;
+  }
+}
+
+.btn {
+  @include button($fgcolor: #e9e21e);
+}
+a {
+ @extend %link;
+ text-decoration: none;
+}

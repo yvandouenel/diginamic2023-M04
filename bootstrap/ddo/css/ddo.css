@@ -1,0 +1,31 @@
+article {
+  width: 306px;
+  height: 424px;
+  position: relative;
+  overflow: hidden;
+}
+article > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+article > div > div > div {
+  display: flex;
+  justify-content: space-between;
+
+}
+article > div > div > div a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+a {
+  color: #2b2b7a;
+}
+
+body {
+  background-color: #f2e1e1;
+}
+
+header {
+  border: 1px solid black;
+}
+header nav ul {
+  list-style: none;
+}
+
+.btn {
+  background-color: #012323;
+  color: #e9e21e;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #048686;
+  color: #938e0e;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#caroussel {
+  border: 5px solid red;
+  position: relative;
+}
+#caroussel > div {
+  background-color: #012323;
+  color: #f2e1e1;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#caroussel > div:nth-child(2) {
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

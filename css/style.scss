@@ -1,0 +1,22 @@
+/* pour les mobiles */
+.container {
+  width: 100%;
+  padding: 0 3%;
+  box-sizing: border-box;// compte le padding et border dans width
+  border: 1px solid black;
+ }
+
+ /* Pour les écrans plus grands que 1024 */
+ @media (min-width: 1024px) {
+   .container {
+    max-width: 960px;
+    margin: 0 auto;
+   }
+ }
+ /* Pour les écrans plus grands que 1400 */
+ @media (min-width: 1400px) {
+  .container {
+   max-width: 1320px;
+   margin: 0 auto;
+  }
+}

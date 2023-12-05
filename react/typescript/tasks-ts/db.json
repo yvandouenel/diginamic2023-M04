@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Faire le ménage",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Faire les courses",
+      "done": true
+    },
+    {
+      "title": "Explications des forms à Claire",
+      "done": false,
+      "id": 3
+    },
+    {
+      "title": "qsdf",
+      "done": true,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "title": "qsdf",
+      "done": true
+    },
+    {
+      "id": 6,
+      "title": "qsdf",
+      "done": false
+    }
+  ]
+}

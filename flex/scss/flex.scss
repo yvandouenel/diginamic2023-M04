@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  height: 800px;
+
+  // alignement sur l'axe principal
+  justify-content: space-between;
+
+  // alignement sur l'axe secondaire
+  align-items: flex-start;
+
+  // alignement sur l'axe secondaire mais entre les éléments situés sur l'axe principal
+  align-content: space-around;
+  > div {
+    border: 1px solid black;
+    /* width: 100%; */
+    flex-basis: 32%;
+    box-sizing: border-box;
+  }
+}
