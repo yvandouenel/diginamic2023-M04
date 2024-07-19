@@ -1,0 +1,14 @@
+.enter-ion-page {
+  animation-duration: 5s;
+  animation-name: enteranimation;
+}
+
+@keyframes enteranimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
